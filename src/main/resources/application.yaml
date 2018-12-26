@@ -8,8 +8,4 @@ spring:
       server:
         git:
           uri: https://github.com/AymanGhaly/spring-cloud-config-server
-          
-
-management:
-  security:
-    enabled:false
+          searchPaths: conf*
