@@ -1,8 +1,12 @@
 server:
-  port:8080
+  port: 8888
 
 
-spring:    
+spring:
+  profiles:
+    active: dev,liv
+  application:
+    name: config-server    
   cloud:
     config:
       server:
